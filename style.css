@@ -1,0 +1,126 @@
+:root {
+    --background-color1: rgb(255, 255, 255);
+}
+
+#nav {
+    padding: 0 auto;
+    font-family: Inconsolata;
+    color: #333333;
+}
+
+.main-content {
+    display: absolute;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 250px;
+    left: 90px;
+}
+
+#footer {
+    top: 1020px;
+    margin: 500px;
+    padding: 0;
+    text-align: center;
+    font-family: Montserrat !important;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.main {
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+input {
+    display: flex;
+    position: absolute;
+    font-family: Space Mono;
+    letter-spacing: -0.035em;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    width: 150px;
+    height: 60px;
+    flex-direction: column;
+    left: 738px;
+    top: 700px;
+}
+
+
+.main-content p {
+    font-family: Space Mono;
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    padding: 30px 0;
+}
+
+.main-content h1 {
+    font-family: Space Mono;
+    position: absolute;
+    font-style: normal;
+    left: 735px;
+    top: 265px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    margin-right: 10px;
+    text-align: left;
+}
+
+@media (min-width: 350px) {
+    #nav {
+       position: sticky;
+    }
+    h1 {
+        width: 350px;
+        height: 142px;
+        position: absolute;
+        left: 24px;
+        top: 380px;
+        display: block;
+        font-size: 14px;
+    }
+
+    .main-content p {
+        top: 565px;
+        display: block;
+        font-size: medium;
+        padding: 10px;
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 12px;
+    }
+
+    .main-content {
+        margin: 0 24px
+    }
+
+    img{
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 11.49%;
+        bottom: 63.44%;
+    }
+}
